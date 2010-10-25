@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>brunow-admin</title> 
+    <!--[if lte IE 8]>
+        <script src='http://html5shiv.googlecode.com/svn/trunk/html5.js' type='text/javascript'></script>
+    <![endif]-->
+    <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/admin.css" media="screen" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="body">
+      <h1>
+        <a href="">Admin</a>
+        <div class="acount">Hello, <a href="">Bruno</a> | <a href="">Logout</a></div>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="table_list.html">Table list</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="body">
+      <div id="content">
+        <h2>Add new</h2>
+        <form>
+          <p>
+            <label>
+              title*
+              <small>Must contain alpha-numeric characters.</small>
+            </label>
+            <input type="text" required=true placeholder="Title">
+            <span class="error">
+              Must only contain alpha-numeric characters.
+            </span>
+          </p>
+          <p>
+            <label>
+              description*
+              <small>Html syntax.</small>
+            </label>
+            <textarea cols="30" rows="10"></textarea>
+            <span class="error">
+              Must only contain alpha-numeric characters.
+            </span>
+          </p>
+          <p>
+            <input value="Add" type="submit">
+          </p>
+        </form>
+      </div>
+    </section>
+    <footer class="body">
+      <p>
+        Template by <a href="http://brunowernimont.be/">Bruno Wernimont</a>
+      </p>
+    </footer>
+</body>
+</html>

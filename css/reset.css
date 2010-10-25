@@ -1,0 +1,15 @@
+html {
+  font-size: 100%; }
+
+body {
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif; }
+
+html, body, div, object, ul, ol, li, header {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+header, footer, nav, article, section, aside, figure {
+  display: block; }
